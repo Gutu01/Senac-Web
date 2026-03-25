@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('menu.css');
+
+:root{
+    --cor-menu: rgb(111, 0, 0);
+    --cor-letra-menu: rgb(254,176,176);
+    --cor-hover-menu: rgb(32, 5,5);
+    --cor-botao-menu: rgb(190, 44, 0);
+    --cor-letra-botao-menu: rgb(249,162,136);
+
+
+    --cor-neutra-branca: rgb(255,255,255);
+    --cor-neutra-preta: rgb(0,0,0);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+}
+
+
+body{
+    /* Deixa o display fexivel para mudanças */
+    display: flex;
+    /* Deixa as coisas organizadas em colunas, um em baixo do outro */
+    flex-direction: column;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
