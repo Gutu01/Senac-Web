@@ -6,7 +6,7 @@
     <title>Hambúrgueria 543 - Cadastro</title>
     <link rel="stylesheet" href="../CSS/style.css">
 </head>
-<body>
+<body class="body-cadastro">
     <header class="menu">
 
         <!-- A navbar seria o cabeçalho, a parte de cima que tem as coisas. -->
@@ -39,5 +39,80 @@
         </nav>
         
     </header>
+
+    <div class="box-cadastro">
+        <form action="">
+            <fieldset>
+                <legend>FORMULÁRIO DE CADASTRO DE CLIENTES</legend>
+
+                <!-- Campo de nome -->
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" requised>
+                    <label for="nome" class="labelInput">Nome completo</label>
+                </div>
+
+                <!-- Campo de email -->
+                <div class="inputBox">
+                    <input type="text" name="email" id="email" class="inputUser" requised>
+                    <label for="email" class="labelInput">Email</label>
+                </div>
+
+                <!-- Campo de telefone -->
+                <div class="inputBox">
+                    <input type="tel" name="telefone" id="telefone" class="inputUser" requised>
+                    <label for="telefone" class="labelInput">Telefone</label>
+                </div>
+
+                <!-- Selecionar sexo -->
+                <div class="area-genero">
+                    <p>Sexo:</p>
+
+                    <div class="opcao-genero">
+                        <input type="radio" name="genero" id="feminino" value="femino" required>
+                        <label for="feminino">Feminino</label>
+                    </div>
+                    
+                    <div class="opcao-genero">
+                        <input type="radio" name="genero" id="masculino" value="masculino" required>
+                        <label for="masculino">Maculino</label>
+                    </div>
+                
+                    <div class="opcao-genero">
+                        <input type="radio" name="genero" id="outros" value="outros" required>
+                        <label for="outros">Outros</label>
+                    </div>
+                </div>
+
+                <!-- Data de nascimento -->
+                <div class="area-dn">
+                    <input type="date" name="data_nascimento" id="data_nascimento">
+                    <label for="data_nascimento">Data de Nascimento</label>
+                </div>
+
+                <!-- Campo de cidade -->
+                <div class="inputBox">
+                    <input type="text" name="cidade" id="cidade" class="inputUser" requised>
+                    <label for="cidade" class="labelInput">Cidade</label>
+                </div>
+
+                <!-- Campo de estado -->
+                <div class="inputBox">
+                    <input type="text" name="estado" id="estado" class="inputUser" requised>
+                    <label for="estado" class="labelInput">estado</label>
+                </div>
+
+                <!-- Campo endereço -->
+                <div class="inputBox">
+                    <input type="text" name="endereco" id="endereco" class="inputUser" requised>
+                    <label for="endereco" class="labelInput">Endereço</label>
+                </div>
+
+                <!-- Botão de enviar -->
+                <input type="submit" value="ENVIAR" name="submit" id="submit">
+                
+            </fieldset>
+        </form>
+    </div>
+
 </body>
 </html>
