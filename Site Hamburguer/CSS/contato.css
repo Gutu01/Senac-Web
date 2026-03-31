@@ -1,0 +1,47 @@
+.body-contato{
+    background-color: rgb(255,185,160);
+}
+
+textarea{
+    resize: none;
+    width: 100%;
+    height: 150px;
+    background-color: var(--cor-letra-menu);
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+}
+
+.labelContato{
+    padding-top: 7px;
+    margin-bottom: 5px;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.inputContato{
+    padding-left: 7px;
+    border: none;
+    outline: none;
+    background-color: var(--cor-letra-menu);
+    /* font-size: 15px; */
+    height: 35px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+
+.inputBoxContato{
+    padding-top: 2px;
+    display:flex;
+    flex-direction: column;
+}
+
+.inputBoxContato #mensagem{
+    margin-bottom: 20px;
+}
+
+.submitContato{
+    box-shadow: 2px 5px 4px var(--cor-letra-menu);
+}

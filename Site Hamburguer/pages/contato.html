@@ -6,7 +6,7 @@
     <title>Hambúrgueria 543 - Contato</title>
     <link rel="stylesheet" href="../CSS/style.css">
 </head>
-<body>
+<body class="body-contato">
     <header class="menu">
 
         <!-- A navbar seria o cabeçalho, a parte de cima que tem as coisas. -->
@@ -39,5 +39,42 @@
         </nav>
         
     </header>
+
+    <div class="box-cadastro">
+        <form action="">
+            <fieldset>
+                <legend>FAÇA SEU PEDIDO AQUI</legend>
+
+                <!-- Campo de nome -->
+                <div class="inputBoxContato">
+                    <label for="nome" class="labelContato">Nome completo</label>
+                    <input type="name" name="nome" id="nome" class="inputContato" requised>
+                </div>
+
+                <!-- Campo de email -->
+                <div class="inputBoxContato">
+                    <label for="email" class="labelContato">Email</label>
+                    <input type="email" name="email" id="email" class="inputContato" requised>
+                </div>
+
+                <!-- Campo de telefone -->
+                <div class="inputBoxContato">
+                    <label for="telefone" class="labelContato">Telefone</label>
+                    <input type="tel" name="telefone" id="telefone" class="inputContato" requised>
+                </div>
+
+                <!-- Campo de mensagem -->
+                <div class="inputBoxContato">
+                    <label for="mensagem" class="labelContato">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" ></textarea>
+                </div>
+
+                <!-- Botão de enviar -->
+                <input type="submit" value="ENVIAR" name="submit" id="submit" class="submitContato">
+                
+            </fieldset>
+        </form>
+    </div>
+
 </body>
 </html>

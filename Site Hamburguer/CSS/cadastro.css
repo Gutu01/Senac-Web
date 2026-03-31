@@ -32,7 +32,7 @@ legend{
 
 .inputBox{
     position: relative;
-    margin: 10px;
+    margin: 10px 0px 20px 0px;
 }
 
 .inputUser{
@@ -51,7 +51,7 @@ legend{
     top: 0;
     left: 0;
     pointer-events: none;
-    transition:0.3s;
+    transition:0.35s;
 }
 
 .inputUser:focus ~ .labelInput,
@@ -67,7 +67,7 @@ legend{
     border-radius:8px;
     outline: none;
     font-size:15px;
-    width: 30%;
+    width: 25%;
 }
 
 #submit{
@@ -96,4 +96,3 @@ input[type="radio"]{
     gap: 15px;
     padding-bottom: 20px;
 }
-
