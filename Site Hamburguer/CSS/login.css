@@ -98,3 +98,24 @@
     background-color: var(--cor-menu);
     color: #fff;
 }
+
+.card-login p a{
+    color: #fff;
+}
+
+.area-icones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon-login{
+    display: flex;
+    gap: 10px;
+}
+
+.icon-login a{
+    color: #fff;
+    font-size: 18px;
+}
