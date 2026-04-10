@@ -25,7 +25,7 @@ header{
     gap: 48px;
 }
 
-.nav-list a{
+.nav-item a{
     color: var(--color-neutra-1);
     font-weight: 600;
 }
